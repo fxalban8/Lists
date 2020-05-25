@@ -6,3 +6,9 @@ print(type(program_languages))
 print("The number of elements of the list is: "+str(len(program_languages)))
 #If we prefere to show all the list, we can do it by executing a print command
 print(program_languages)
+
+
+#We can show only the first element of the list by using its index
+print(program_languages[0])
+#We can show only the last element of the list by using the index -1
+print(program_languages[-1])
