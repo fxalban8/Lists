@@ -17,3 +17,8 @@ print(program_languages[-1])
 program_languages[1]="GO"
 #Let's check the change
 print(program_languages)
+
+#We can use the command "del" to delete an element of the list
+del program_languages[3] #Third element named C++ has been deleted from the list
+#Let's check the delete
+print(program_languages)
