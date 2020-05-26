@@ -12,3 +12,8 @@ print(program_languages)
 print(program_languages[0])
 #We can show only the last element of the list by using the index -1
 print(program_languages[-1])
+
+#If we prefere to change an element by its index, we can use this command
+program_languages[1]="GO"
+#Let's check the change
+print(program_languages)
